@@ -1,4 +1,5 @@
 import os
+from phi.model import Agent
 from phi.storage.agent.sqlite import SqlAgentStorage
 from phi.model.google import Gemini
 from phi.tools.googlesearch import GoogleSearch
